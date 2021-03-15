@@ -1,0 +1,55 @@
+
+
+/* flex container */
+.wrapper {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-color:#313E59;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* flex items */
+.container {
+    display: flex;
+    padding: 50px;
+    background-color: #5D768C;
+    border: 5px solid black;
+   
+    
+}
+
+  img{
+   height: 90vh;
+   border: 5px solid black;
+   border-radius: 25px;
+   width: 600px;
+   width: 350px;
+   overflow: hidden;
+  
+
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+
+    background-color: #5D768C;
+    color: white;
+    padding:0px 10px;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 5px ;
+}
+
+.zoom {
+    transform: scale(1.5);
+    border-radius: 100%;
+}
